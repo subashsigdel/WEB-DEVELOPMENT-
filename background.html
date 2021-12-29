@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,width,border and backgroundcolor</title>
+    <style>
+        #firstID {
+            background-color: black;
+            color: red;
+            height: 1000px;
+            width: 4555px;
+            border-width: 4px;
+            border-style: solid;
+            border-radius: 11px;
+        }
+
+        #secondID {
+            background-color: chartreuse;
+            height: 100px;
+            width: 4px;
+            border-top: black solid;
+            border-radius: 4px;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+
+        }
+
+        #thirdID {
+            height: 720px;
+            width: 2280px;
+            background-image: url(/CSS/image.png);
+            background-repeat: no-repeat;  /* repat X and repeat Y will make it repeat on X and Y*/
+            border: 2px;
+            /* background-position: center; */
+            /* background-position: 192px 14px; */
+            /* background-position: top center;
+            background-position: top left; */
+            background-position: bottom left;
+            background-position: bottom right;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>border</h3>
+    <p id="firstID">this is the frist border</p>
+    <h2>second border</h2>
+    <span id="secondID">this is the second border</span>
+    <h3>third border</h3>
+    <p id="thirdID">this is the third border</p>
+</body>
+
+</html>
