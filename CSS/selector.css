@@ -1,11 +1,35 @@
-h1{
-    background-color:blue;
-    color:white;
-    border:blue;
-    border-width: 8cm;
-    margin-top: -0.10cm;
-    margin-left: -0.20cm;
-    margin-right:-0.20cm;
+body{
+
+    background-color: #b4b3ade0;
+
+}
+#firstID{
+    font-style:bold;
+    font-size: 30px;
+    color:black;
 }
 
+#thirdID{
+    color:black;
+    font-size: 30px;
+    float:right;
+    width: 15%;
+    margin-top: -5%;
+}
+img{
+    object-fit: cover;
+    background-size: cover;
+    width: 620px;
+    height: 580px;
 
+}
+#selfID{
+    font-size: 30px;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+a{
+    font-size: 30px;
+    margin-left:18%;
+    margin-bottom:-5%;
+}
