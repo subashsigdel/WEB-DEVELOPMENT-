@@ -3,19 +3,6 @@ body{
     background-color: #b4b3ade0;
 
 }
-#firstID{
-    font-style:bold;
-    font-size: 30px;
-    color:black;
-}
-
-#thirdID{
-    color:black;
-    font-size: 30px;
-    float:right;
-    width: 15%;
-    margin-top: -5%;
-}
 img{
     object-fit: cover;
     background-size: cover;
@@ -23,13 +10,31 @@ img{
     height: 580px;
 
 }
+#homeID{
+    font-size: 30px;
+    color: black;
+
+
+
+}
 #selfID{
     font-size: 30px;
-    margin-left: 20%;
-    margin-top: 20%;
+    color:black
+
 }
-a{
+#aboutID{
     font-size: 30px;
-    margin-left:18%;
-    margin-bottom:-5%;
+    color: black;
+    margin-left:5%;
+
+}
+#projectsID{
+    font-size: 30px;
+    color:black;
+    margin-left: 5%;
+}
+#contactID{
+    font-size: 30px;
+    color: black;
+    margin-left: 60%;
 }
