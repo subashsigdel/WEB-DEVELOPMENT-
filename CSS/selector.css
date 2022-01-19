@@ -11,6 +11,7 @@ img{
 
 }
 #homeID{
+    text-decoration: none;
     font-size: 30px;
     color: #020101e0;
 
@@ -40,6 +41,7 @@ img{
 
 }
 #aboutID{
+    text-decoration: none;
     font-size: 30px;
     color:#020101e0;
 
@@ -48,12 +50,14 @@ img{
 
 }
 #projectsID{
+    text-decoration: none;
     font-size: 30px;
     color:#020101e0;
 
     margin-left: 5%;
 }
 #contactID{
+    text-decoration: none;
     font-size: 30px;
     color:#020101e0;
     margin-left: 50%;
@@ -65,5 +69,5 @@ img{
     font-size: 20px;
     font-weight: bold;
     margin-left: 20%;
-    margin-top: 2%;
+    margin-bottom:200%;
 }
