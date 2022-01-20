@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Function in JS</title>
+</head>
+
+<body>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</body>
+
+
+<script>
+    var str = "this is a string";
+    console.log(str);
+    //frist occurance of a substring
+    position = str.indexOf('is');
+    console.log(position)
+    //last occurance of string
+    position = str.lastIndexOf('is')
+    console.log(position)
+    //substring from a string
+    var substr = str.slice(1, 6);
+    console.log(substr);
+    //another method for string sclicing
+    var substr = str.substring(1, 7);
+    var substr1 = str.substr(1, 3);
+    console.log(substr1);
+    // replacing string 
+    var replaced = str.replace('string', 'toy');
+    console.log(replaced);
+    // making uppercase and lowercase in JS
+    console.log(replaced.toUpperCase());
+    console.log(replaced.toLowerCase());
+    //concating string with concat functiom
+    var newString = str.concat("\tnew boy");
+    console.log(newString);
+    //Removing whitespaces using trim function
+    var strwithwhitespaces = '       this  is a whitespaces         ';
+    console.log(strwithwhitespaces.trim());
+    //slicing of character
+    var char3 = str.charAt(2);
+    console.log(char3);
+    //generating char code
+    var char = str.charCodeAt(2);
+    console.log(char);
+    //slicing using index
+    console.log(str[3]);
+
+</script>
+
+</html>

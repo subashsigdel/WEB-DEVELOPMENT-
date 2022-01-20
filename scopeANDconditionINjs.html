@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and conditions in JavaScript</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>frist</li>
+            <li>second</li>
+            <li>third</li>
+            <li>fourth</li>
+        </ul>
+    </div>
+
+</body>
+<script>
+    var string1 = "this is my frist string";
+    var string1 = "this is my frist string2";  //In var string can be changed so from onwards we will use let instead of var
+    console.log(string1);
+
+    let big = "be positive";
+    //let big="be negative"; // it will get error if we do this
+    console.log(big);
+    //but when we use same variable name in {} this bracket we can change the value withhin the bracket only
+    {
+        let big = "be negative";
+        console.log(big);//it didn't give error 
+    }
+    console.log(big);
+    //When we use const we cannot change the value in whole programm
+    const small = "this cannot be changed";
+    console.log(small);
+    //const small="I want to change thi but i can't"//it also throw error
+    // condition in JavaScript
+    let age = 20;
+    if (age < 18) {
+        console.log("you can't go out at night.Sleep well baby ");
+    }
+    else if (age > 18) {
+        console.log(" you can go out at night.Have fun!!");
+    }
+    else if (age == 30) {
+        console.log("you should work hard for better future");
+
+    }
+    else {
+        console.log("Do whatever you want.")
+    }
+//switch case statement in JavaScript
+        const beer=30;
+        switch(beer){
+            case 2:
+                console.log("you can handel 2 beer");
+                break;
+            case 4:
+                console.log("now you are going high with 4 beer");
+                break;
+            case 10:
+                console.log("you are high with 10 beer");
+                break;
+            case 20:
+                console.log("you can't handel yoursel now")
+                break;
+            default:
+                console.log("now no one can handel you")
+                break;
+        }
+</script>
+
+</html>
