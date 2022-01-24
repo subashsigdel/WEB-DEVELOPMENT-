@@ -1,0 +1,45 @@
+@import 'utilities.css';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smothing: antialised;
+}
+
+:root {
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    --temporary: #898989;
+    --light: #F2F2F2;
+}
+
+header {
+    background: var(--dark);
+    height: 800px;
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav.left a {
+    color: var(--light);
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav.branding {
+    margin-right: 3rem;
+}
+
+header nav.left a:hover {
+    color: var(--primary)
+}
