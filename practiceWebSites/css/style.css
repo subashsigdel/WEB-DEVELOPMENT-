@@ -43,3 +43,14 @@ header nav.branding {
 header nav.left a:hover {
     color: var(--primary)
 }
+
+.fix a {
+    text-decoration: none;
+    font-size: 30px;
+    color: aqua;
+}
+
+.right {
+    font-size: 20px;
+    align-items: left;
+}

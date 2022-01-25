@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.heading {
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.discription {
+    color: cornsilk;
+    text-align: center;
+}
+
+.from {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.froms {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    height: 200px;
+    width: 500px;
+}
