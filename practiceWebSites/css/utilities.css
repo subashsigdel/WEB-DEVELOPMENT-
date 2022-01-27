@@ -19,6 +19,7 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all .3s ease;
+    align-self: right;
 }
 
 .btn-primary {

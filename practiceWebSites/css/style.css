@@ -50,7 +50,17 @@ header nav.left a:hover {
     color: aqua;
 }
 
-.right {
-    font-size: 20px;
-    align-items: left;
+.mid {
+    color: var(--temporary);
+}
+
+footer {
+    color: yellow;
+    background-color: var(--dark);
+    font-size: 30px;
+}
+
+main {
+    color: violet;
+    font-size: 60px;
 }
