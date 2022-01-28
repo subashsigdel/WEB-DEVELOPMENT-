@@ -1,0 +1,63 @@
+body {
+    background-color: #161616;
+}
+
+
+/* nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 16, 156); */
+
+
+/* justify-content: space-between;
+    align-content: right; */
+
+
+/* } */
+
+#heading {
+    font-size: 50px;
+    color: rgb(255, 16, 156);
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.five {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: yellow;
+}
+
+.center {
+    font-size: 30px;
+    color: turquoise;
+    font-style: italic;
+    font-family: cursive;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.middle {
+    font-size: 40px;
+    color: yellow;
+    ;
+}
+
+header a {
+    color: rgb(106, 14, 197);
+    margin-left: 700px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header b {
+    padding-left: 2rem;
+    font-size: 20px;
+    color: rgb(106, 14, 197);
+}
