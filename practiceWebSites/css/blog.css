@@ -26,7 +26,7 @@ body {
 }
 
 .five {
-    padding: 0;
+    padding: 30px;
     margin: 0;
     font-size: 12px;
     text-align: center;
@@ -49,15 +49,21 @@ body {
     ;
 }
 
-header a {
+
+/* header a {
     color: rgb(106, 14, 197);
     margin-left: 700px;
     text-decoration: none;
     font-size: 20px;
-}
+} */
 
-header b {
+
+/* header b {
     padding-left: 2rem;
     font-size: 20px;
     color: rgb(106, 14, 197);
+} */
+
+.second {
+    float: right;
 }
