@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: rgb(141, 141, 250);
+}
+a{
+    text-decoration: none;
+    padding-right: 1rem;
+}
+.main{
+    text-align: center;
+}
+.headword{
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.headword3{
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(251, 255, 6);
+}
+.headword2{
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 0);
+}
+.game1{
+    font-size: 2rem;
+}
