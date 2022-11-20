@@ -41,6 +41,7 @@ li a {
 .maincontainer { 
     color: aliceblue;
     justify-content:space-around;
+
 }
 
 .headone{
@@ -70,6 +71,18 @@ li a {
 .contentcenter{
     text-align:justify;
     padding-left: 5rem;
+}
+.paragraphs{
+    font-size: 2rem;
+}
+.yellow{
+    color: yellow !important;
+}
+.red{
+    color: red !important;
+}
+.green{
+    color: green !important;
 }
 /*  Main Section Ends */
 
